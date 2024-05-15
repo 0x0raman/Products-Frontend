@@ -25,7 +25,7 @@ While the backend server is running, proceed with the frontend setup:
 ```
 
 ### 4. To run locally one slight change is also needed to be done
-## Modify the api.js file located at /src/services/api.js to just the below code
+#### Modify the api.js file located at /src/services/api.js to just the below code
 
 ```bash
   import axios from 'axios';
