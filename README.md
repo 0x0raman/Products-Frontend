@@ -24,8 +24,9 @@ While the backend server is running, proceed with the frontend setup:
   npm install
 ```
 
-### 4. To run locally one slight change is also needed to be done
-Modify the api.js file located at /src/services/api.js to just the below code
+### 4. Optional if Product-API is also running locally 
+#### Modify the api.js file located at /src/services/api.js to just the below code
+*if you're running the API locally only then implement this change*
 
 ```bash
   import axios from 'axios';
