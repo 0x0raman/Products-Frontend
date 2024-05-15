@@ -24,7 +24,19 @@ While the backend server is running, proceed with the frontend setup:
   npm install
 ```
 
-### 4. Start the frontend server
+### 4. To run locally one slight change is also needed to be done
+## Modify the api.js file located at /src/services/api.js to just the below code
+
+```bash
+  import axios from 'axios';
+  const API_URL = 'http://localhost:5000/api/';
+  const api = axios.create({
+    baseURL: API_URL,
+  });
+  export default api;
+```
+
+### 5. Start the frontend server
 
 ```bash
   npm start
