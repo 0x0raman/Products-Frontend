@@ -15,7 +15,7 @@ While the backend server is running, proceed with the frontend setup:
 ### 2. Navigate to the frontend directory (Products-Frontend)
 
 ```bash
-  cd ..\Products-Frontend-main
+  cd Products-Frontend-main
 ```
 
 ### 3. Install frontend dependencies
